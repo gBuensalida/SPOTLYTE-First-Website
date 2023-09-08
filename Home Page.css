@@ -1,0 +1,584 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: montserrat;
+}
+
+/* homepage */
+
+.main{
+	position: relative;
+	width: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), #000000), url(allbg.png);
+	background-position: center;
+	background-size: cover;
+	height: 109vh;
+}
+
+.navbar{
+	width: 100%;
+	height: 90px;
+	margin: auto;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	z-index: +1;
+}
+
+.icon{
+	width: 200px;
+	float: left;
+	height: 70px;
+}
+
+.logo{
+	background: linear-gradient(90deg, #fff, #c89116);
+	font-size: 35px;
+	font-family: Montserrat;
+	font-weight: bold;
+	padding-left: 50px;
+	float: left;
+	padding-top: 20px;
+	width: 400px;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.logo img{
+	float: left;
+	width: 60px;
+	height: 50px;
+}
+
+.logotext{
+	padding-top: 2px;
+	letter-spacing: 5px;
+	font-family: montserrat;
+}
+
+.menu{
+	width: 800;
+	float: left;
+	height: 30px;
+	margin-left: 49%;
+	padding-top: 10px;
+	position: absolute;
+}
+
+ul{
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+ul li{
+	list-style: none;
+	margin-left: 42px;
+	margin-top: 27px;
+	font-size: 14px;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-family: Montserrat;
+	font-weight: bold;
+	transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+	color: #c89116;
+}
+
+.homecontent{
+	width: 1200px;
+	height: auto;
+	position: absolute;
+	margin-top: 260px;
+	margin-left: 150px;
+}
+
+.homegraphic{
+	float: right;
+	margin-right: 500px;
+	margin-top: -150px;
+}
+
+.homegraphic img{
+	height: 600px;
+	opacity: 80%;
+	position: absolute;
+}
+
+.homecontenttext{
+	font-weight: bold;
+	font-family: Montserrat;
+	font-size: 50px;
+	position: absolute;
+	background: linear-gradient(90deg, #fff, #c89116);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.theater img{
+	height: 300px;
+	position: absolute;
+	margin-top: -70px;
+	margin-left: 50px;
+	opacity: 30%;
+}
+
+.btnAbout{
+	width: 1200px;
+	height: auto;
+	margin-top: 250px;
+	margin-left: 15px;
+	float: left;
+	position: absolute;
+}
+
+.btnAbout button{
+	width: 160px;
+	height: 40px;
+	background: transparent;
+	border: none;
+	margin-bottom: 10px;
+	margin-left: 18px;
+	font-size: 18px;
+	border-radius: 20px;
+	border: 1px solid white;
+}
+
+.btnAbout button a{
+	text-decoration: none;
+	color: #fff;
+	font-family: montserrat;
+}
+
+.btnAbout button a:hover{
+	color: #c89116;
+}
+
+/* AboutUs Neil Jocson */
+
+.aboutus{
+	width: 100%;
+	height: 109vh;
+	background-color: #222222
+}
+
+.portfoliobg img{
+	object-fit: cover;
+	height: 812px;
+	width: 760px;
+	float: left;
+	position: absolute;
+}
+
+.neil img{
+	height: 600px;
+	margin-top: 100px;
+	margin-left: 170px;
+	position: absolute;
+}
+
+.neildesc{
+	height: 750px;
+	width: 450px;
+	margin-left: 950px;
+	position: absolute;
+	margin-top: 50px;
+	font-family: poppins-extralight,sans-serif;
+}
+
+.neildesc p{
+	line-height: 1.5;
+	color: #fff;
+	margin-top: 100px;
+	position: absolute;
+}
+
+.neildesc h1{
+	color: #fff;
+	position: absolute;
+	font-size: 50px;
+	font-family: poppins,sans-serif;
+	letter-spacing: 0px;
+	width: auto;
+	height: 300px;
+}
+
+/* AboutUs Giuliani Buensalida */
+
+.aboutus2{
+	height: 109vh;
+	background-color: #222222;
+}
+
+.portfoliobgyo img{
+	object-fit: cover;
+	height: 812px;
+	width: 759.5px;
+	margin-left: 760px;
+	position: absolute;
+}
+
+.yopic{
+	object-fit: cover;
+	height: 812px;
+	width: 760px;
+	position: absolute;
+	margin-left: 50%;
+}
+
+.yopic img{
+	height: 500px;
+	margin-top: 130px;
+	margin-left: 200px;
+	position: absolute;
+}
+
+.yohanndesc{
+	height: 750px;
+	width: 450px;
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 150px;
+	font-family: poppins-extralight,sans-serif;
+}
+
+.yohanndesc h1{
+	color: #fff;
+	position: absolute;
+	font-size: 50px;
+	font-family: poppins,sans-serif;
+	letter-spacing: 0px;
+	width: 700px;
+	height: 300px;
+}
+
+.yohanndesc p{
+	line-height: 1.5;
+	color: #fff;
+	margin-top: 100px;
+	position: absolute;
+}
+
+/* AboutUs Brigerom Urrea */
+
+.aboutus3{
+	width: 100%;
+	height: 109vh;
+	background-color: #222222
+}
+
+.portfoliobgbr img{
+	object-fit: cover;
+	height: 812px;
+	width: 760px;
+	float: left;
+	position: absolute;
+}
+
+.br img{
+	height: 500px;
+	margin-top: 200px;
+	margin-left: 130px;
+	position: absolute;
+}
+
+.brdesc{
+	height: 750px;
+	width: 450px;
+	margin-left: 950px;
+	position: absolute;
+	margin-top: 50px;
+	font-family: poppins-extralight,sans-serif;
+}
+
+.brdesc p{
+	line-height: 1.5;
+	color: #fff;
+	margin-top: 100px;
+	position: absolute;
+}
+
+.brdesc h1{
+	color: #fff;
+	position: absolute;
+	font-size: 50px;
+	font-family: poppins,sans-serif;
+	letter-spacing: 0px;
+	width: auto;
+	height: 300px;
+}
+
+/* AboutUs Caine Fernandez */
+
+.aboutus4{
+	height: 109vh;
+	background-color: #222222;
+}
+
+.portfoliobgcaine img{
+	object-fit: cover;
+	height: 812px;
+	width: 759.5px;
+	margin-left: 760px;
+	position: absolute;
+}
+
+.cainepic{
+	object-fit: cover;
+	height: 812px;
+	width: 760px;
+	position: absolute;
+	margin-left: 50%;
+}
+
+.cainepic img{
+	height: 500px;
+	margin-top: 130px;
+	margin-left: 150px;
+	position: absolute;
+}
+
+.cainedesc{
+	height: 750px;
+	width: 450px;
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 150px;
+	font-family: poppins-extralight,sans-serif;
+}
+
+.cainedesc h1{
+	color: #fff;
+	position: absolute;
+	font-size: 50px;
+	font-family: poppins,sans-serif;
+	letter-spacing: 0px;
+	width: 700px;
+	height: 300px;
+}
+
+.cainedesc p{
+	line-height: 1.5;
+	color: #fff;
+	margin-top: 100px;
+	position: absolute;
+}
+
+/* AboutUs Mark Subijano */
+
+.aboutus5{
+	width: 100%;
+	height: 109vh;
+	background-color: #222222
+}
+
+.portfoliobgram img{
+	object-fit: cover;
+	height: 812px;
+	width: 760px;
+	float: left;
+	position: absolute;
+}
+
+.ram img{
+	height: 600px;
+	margin-top: 100px;
+	margin-left: 80px;
+	position: absolute;
+}
+
+.ramdesc{
+	height: 750px;
+	width: 450px;
+	margin-left: 950px;
+	position: absolute;
+	margin-top: 50px;
+	font-family: poppins-extralight,sans-serif;
+}
+
+.ramdesc p{
+	line-height: 1.5;
+	color: #fff;
+	margin-top: 100px;
+	position: absolute;
+}
+
+.ramdesc h1{
+	color: #fff;
+	position: absolute;
+	font-size: 50px;
+	font-family: poppins,sans-serif;
+	letter-spacing: 0px;
+	width: auto;
+	height: 300px;
+}
+
+.latter{
+	height: 47vh;
+}
+
+.missionhead{
+	height: 20vh;
+	width: 47%;
+	margin-left: 15px;
+	margin-top: 20px;
+	background-color: #fff;
+	position: absolute;
+}
+
+.missionhead h1{
+	font-size: 80px;
+	margin-top: 20px;
+	position: absolute;
+	margin-left: 20%;
+	font-family: montserrat;
+}
+
+.missioncontext{
+	width: 500px;
+	height: 250px;
+	margin-top: 20vh;
+	position: absolute;
+	font-size: 15px;
+}
+
+.missioncontext p{
+	position: absolute;
+	width: 100%;
+	margin-top: 70px;
+	margin-left: 180px;
+	line-height: 1.5;
+}
+
+.visionhead{
+	margin-top: -90;
+	height: 20vh;
+	width: 47%;
+	background-color: #000000;
+	margin-top: 20px;
+	position: absolute;
+	margin-left: 49%
+}
+
+.visionhead h1{
+	font-size: 80px;
+	margin-top: 20px;
+	position: absolute;
+	color: #fff;
+	margin-left: 25%;
+	font-family: montserrat;
+}
+
+.visioncontext{
+	width: 500px;
+	height: 250px;
+	margin-top: 20vh;
+	margin-left: 50%;
+	position: absolute;
+	font-size: 15px;
+}
+.visioncontext p{
+	position: absolute;
+	width: 100%;
+	margin-top: 50px;
+	margin-left: 160px;
+}
+
+.bg{
+	height: 56vh;
+	width: 97%;
+	background-color: #E7E9EB;
+	margin: 20px;
+	border-radius: 20px;
+}
+
+.mission img{
+	width: 100px;
+	position: absolute;
+	margin-top: 240px;
+	margin-left: 40px;
+}
+
+.vision img{
+	width: 100px;
+	position: absolute;
+	margin-top: 240px;
+	margin-left: 51%;
+}
+
+.body{
+	position: relative;
+}
+
+/*achievements*/
+
+.a1{
+  height: 100vh;
+  width: 100%;
+  margin-top: 90px;
+  background-color: #c89116;
+  position: absolute;
+}
+
+.title1{
+  height: 200px;
+  width: 90%;
+  position: relative;
+  background-color: #000000;
+  border-radius: 30px;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 5%;
+}
+
+.title1 h1{
+  padding-top: 70px;
+  position: relative;
+  font-size: 50px;
+  color: #fff;
+}
+
+.containerbg{
+  height: 53vh;
+  width: 90%;
+  position: relative;
+  background-color: #000000;
+  border-radius: 30px;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 5%;
+}
+
+.a1 .container {
+  margin-left: 8%;
+  position: relative;
+  max-width: 1200px;
+  background-color: transparent;
+  overflow: auto;
+  margin-top: 20px;
+}
+
+.gallery{
+  margin: 30px 90px;
+  border: 3px solid #fff;
+  float: left;
+  width: 390px;
+  border-radius: 30px;
+}
+
+.gallery img{
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+}
+
+.desc{
+  padding: 15px;
+  text-align: center;
+  color: #fff;
+}

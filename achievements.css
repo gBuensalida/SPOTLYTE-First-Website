@@ -1,0 +1,258 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: montserrat;
+}
+
+/* homepage */
+body{
+  background-color: #333333;
+}
+.navbar{
+  width: 100%;
+  height: 90px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  z-index: +1;
+}
+
+.icon{
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+  
+.logo{
+  background: linear-gradient(90deg, #fff, #c89116);
+  font-size: 35px;
+  font-family: Montserrat;
+  font-weight: bold;
+  padding-left: 50px;
+  float: left;
+  padding-top: 20px;
+  width: 300px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.logo img{
+  float: left;
+  width: 60px;
+  height: 50px;
+}
+
+.logotext{
+  padding-top: 2px;
+  letter-spacing: 5px;
+  font-family: montserrat;
+}
+
+.menu{
+  width: 800;
+  float: left;
+  height: 30px;
+  margin-left: 49%;
+  padding-top: 10px;
+  position: absolute;
+}
+
+ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+ul li{
+  list-style: none;
+  margin-left: 42px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-family: Montserrat;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+  color: #c89116;
+} 
+
+.a1{
+  height: auto;
+  width: 100%;
+  background-color: transparent;
+  position: relative;
+}
+
+.title1{
+  height: 400px;
+  width: 55%;
+  position: relative;
+  background-color: #000000;
+  text-align: center;
+}
+
+.title1 h1{
+  padding-top: 130px;
+  position: relative;
+  font-size: 50px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.containerbg{
+  height: 73vh;
+  width: 100%;
+  position: relative;
+  background-color: #c89116;
+  text-align: center;
+}
+
+.a1 .container {
+  margin-left: 10%;
+  position: absolute;
+  max-width: 1200px;
+  background-color: transparent;
+  overflow: auto;
+  margin-top: 70px;
+}
+
+.gallery{
+  margin: 30px 90px;
+  border: 3px solid #fff;
+  float: left;
+  width: 390px;
+  border-radius: 30px;
+}
+
+.gallery img{
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+}
+
+.desc{
+  padding: 15px;
+  text-align: center;
+  color: #fff;
+}
+
+.block{
+  height: 500px;
+  width: 60%;
+  position: absolute;
+  display: block;
+  background-color: #000000;
+}
+
+.title2 {
+  height: 500px;
+  background-color: #fff;
+  width: 40%;
+  position: relative;
+  float: right;
+}
+
+.title2 h1{
+  color: #c89116;
+  position: relative;
+  text-align: center;
+  padding-top: 230px;
+  font-size: 50px;
+}
+
+.bg img{
+  height: 100%;
+  position: relative;
+  z-index: -1;
+  float: right;
+}
+
+.main_container img, .main_container1 img, .main_container2 img, .main_container3 img, .main_container4 img  {
+  height: 405px;
+  position: relative;
+}
+
+.main_container{
+  margin-top: 600px;
+  margin-left: 11.5%;
+  position: relative;
+  width: 35.57%;
+}
+
+.main_container1{
+  margin-top: -408px;
+  margin-left: 800px;
+  position: relative;
+  width: 35.57%;
+}
+
+.main_container2{
+  margin-top: 60px;
+  margin-left: 11.5%;
+  position: relative;
+  width: 35.57%;
+}
+
+.main_container3{
+  margin-top: -408px;
+  margin-left: 800px;
+  position: relative;
+  width: 35.57%;
+}
+
+.main_container4{
+  margin-top: 60px;
+  margin-left: 31.5%;
+  position: relative;
+  width: 35.57%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.main_container:hover .overlay, .main_container1:hover .overlay, .main_container2:hover .overlay, .main_container3:hover .overlay, .main_container4:hover .overlay{
+  height: 100%;
+}
+
+.overlay h1{
+  width: 100%;
+  margin-top: 30px;
+  color: #fff;
+  font-size: 4vw;
+  position: absolute;
+  text-align: center;
+  transform: rotate(-5deg)skewX(-5deg);
+}
+
+.overlay h2{
+  text-align: center;
+  color: #fff;
+  font-size: 1.2vw;
+  margin: 60% 0 0 18%;
+  width: 70%;
+  letter-spacing: 5px;
+  line-height: 1.5em;
+}
+
+.hallow1{
+  background-color: #c89116;
+  height: 100px;
+  position: relative;
+  margin-top: 60px;
+}
